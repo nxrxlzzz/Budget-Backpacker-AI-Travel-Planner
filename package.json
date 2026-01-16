@@ -1,0 +1,45 @@
+{
+  "name": "budget-backpacker-ai-travel-planner",
+  "version": "1.0.0",
+  "description": "Budget Backpacker - AI-powered travel planning at your fingertips. Dream. Plan. Go.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "dev": "live-server --port=5500",
+    "build": "echo 'No build step needed for static site'",
+    "lint:html": "htmlhint",
+    "lint:css": "stylelint 'css/**/*.css'",
+    "lint:js": "eslint 'js/**/*.js'",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "travel",
+    "ai",
+    "chatbot",
+    "budget",
+    "backpacker",
+    "planner",
+    "trip",
+    "itinerary"
+  ],
+  "author": "Budget Backpacker Team",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "htmlhint": "^1.1.4",
+    "live-server": "^1.2.2",
+    "prettier": "^3.0.0",
+    "stylelint": "^15.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/budget-backpacker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/budget-backpacker/issues"
+  },
+  "homepage": "https://budgetbackpacker.com"
+}
